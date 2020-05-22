@@ -26,7 +26,6 @@
                    to: 90 360 180; 
                    dur: 2000; 
                    easing: linear; 
-				   elasticity:300; 
                    loop: true">
       </a-box>
       <a-box id="myOtherBox" 
@@ -38,7 +37,8 @@
         material="src: #wood2"
 	  <a-entity animation="property: rotation"
           animation__2="property: position"
-          animation__color="property: material.color">
+          animation__color="property: material.color"
+		  animation__easeInElastic="elasticity:300">
 	  </a-entity>
         shadow>  
       </a-box>
