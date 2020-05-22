@@ -26,6 +26,7 @@
                    to: 90 360 180; 
                    dur: 2000; 
                    easing: linear; 
+				   elasticity:300; 
                    loop: true">
       </a-box>
       <a-box id="myOtherBox" 
@@ -35,10 +36,6 @@
         height="1" 
         depth="1" 
         material="src: #wood2"
-	  <a-entity animation="property: rotation"
-          animation__2="property: position"
-		  animation__3="dur:2000">
-	  </a-entity>
         shadow>  
       </a-box>
       <a-plane id="ground"
