@@ -1,6 +1,5 @@
 
-
-	changing individual properties with code and using setInterval
+// changing individual properties with code and using setInterval
 	var rotationSpeed = 0.01;
 	var myOtherBox = document.getElementById('myOtherBox');
 
@@ -10,3 +9,5 @@
 	}
 
 	setInterval(spin, 16); //equivalent to 60 fps
+	
+	
