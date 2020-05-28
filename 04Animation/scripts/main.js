@@ -12,7 +12,7 @@
 	myOtherBox.object3D.rotation.y += axSpeed;
  	console.log(myOtherBox.object3D.rotation.y);
 	
-	myOtherBox.object3D.rotation.z += axSpeed;
+	myOtherBox.object3D.rotation.z -= axSpeed;
  	console.log(myOtherBox.object3D.rotation.z);
  } 
 
